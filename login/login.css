@@ -1,0 +1,45 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+body {
+    height:100%;
+    width:100%;
+}
+
+#form-div {
+    width:100%;
+    min-height:90vh;
+    display:flex;
+    flex-shrink:0.1;
+    flex-grow:3;
+    align-items:stretch;
+    justify-content:center;
+}
+
+form {
+    padding:2%;
+}
+.password-container{
+    position: relative;
+}
+.fa-eye{
+    position: absolute;
+    top: 28%;
+    right: 4%;
+    cursor: pointer;
+    color: lightgray;
+  }
+.password-container input[type="password"],
+.password-container input[type="text"]{
+    width: 100%;
+    padding: 12px 36px 12px 12px;
+    box-sizing: border-box;
+  }
+.fa-eye-slash {
+    position: absolute;
+    top: 28%;
+    right: 4%;
+    cursor:pointer;
+
+}
